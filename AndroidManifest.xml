@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.laras.pi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Login_anak"
+            android:label="@string/title_activity_login_anak" >
+        </activity>
+        <activity
+            android:name=".Pilih_hewan"
+            android:label="@string/title_activity_pilih_hewan" >
+        </activity>
+        <activity
+            android:name=".Hewan_makan"
+            android:label="@string/title_activity_hewan_makan" >
+        </activity>
+        <activity
+            android:name=".Hadiah"
+            android:label="@string/title_activity_hadiah" >
+        </activity>
+        <activity
+            android:name=".Login_ortu"
+            android:label="@string/title_activity_login_ortu" >
+        </activity>
+        <activity
+            android:name=".Daftar_akun"
+            android:label="@string/title_activity_daftar_akun" >
+        </activity>
+        <activity
+            android:name=".Ortu_home"
+            android:label="@string/title_activity_ortu_home" >
+        </activity>
+        <activity
+            android:name=".Hasil_daftar"
+            android:label="@string/title_activity_hasil_daftar" >
+        </activity>
+        <activity
+            android:name=".Ortu_menu_2"
+            android:label="@string/title_activity_ortu_menu_2" >
+        </activity>
+        <activity
+            android:name=".Ortu_menu_2_2"
+            android:label="@string/title_activity_ortu_menu_2_2" >
+        </activity>
+        <activity
+            android:name=".Ortu_menu_3"
+            android:label="@string/title_activity_ortu_menu_3" >
+        </activity>
+        <activity
+            android:name=".Ortu_menu_3_3"
+            android:label="@string/title_activity_ortu_menu_3_3" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ayo Menabung</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_login_anak">Login Anak</string>
+    <string name="title_activity_pilih_hewan">Pilih hewan</string>
+    <string name="title_activity_hewan_makan">Hewan Makan</string>
+    <string name="title_activity_hadiah">Hadiah</string>
+    <string name="title_activity_login_ortu">Login Orangtua</string>
+    <string name="title_activity_daftar_akun">Daftar Akun</string>
+    <string name="title_activity_ortu_home">Ortu_home</string>
+    <string name="title_activity_hasil_daftar">Hasil Daftar</string>
+    <string name="title_activity_ortu_menu_2">Ortu_menu_2</string>
+    <string name="title_activity_ortu_menu_2_2">Ortu_menu_2_2</string>
+    <string name="title_activity_ortu_menu_3">Ortu_menu_3</string>
+    <string name="title_activity_ortu_menu_3_3">Catatan Menabung</string>
+
+</resources>
